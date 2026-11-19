@@ -221,3 +221,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local Secrets
+*.local
+
+# Large Media & ML Models (QuPoster CV/OCR)
+*.pt
+*.pth
+*.onnx
+*.bin
+pipeline/test_scans/
+*.tiff
+*.raw
+
+# Web / Frontend
+node_modules/
+.next/
+
+# OS Junk
+Thumbs.db
+Desktop.ini
+.DS_Store
